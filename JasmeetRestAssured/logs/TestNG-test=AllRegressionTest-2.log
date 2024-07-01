@@ -1,0 +1,947 @@
+[INFO ] 2023-02-26 13:10:50.568 com.nagarro.testclient.TestClient - Initializing Base URI from config.properties: https://favqs.com
+[INFO ] 2023-02-26 13:10:51.629 com.nagarro.tests.QuoteAPIValidationTest - Request method:	POST
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.QuoteAPIValidationTest - Request URI:	https://favqs.com/api/session
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.QuoteAPIValidationTest - Proxy:			<none>
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.QuoteAPIValidationTest - Request params:	<none>
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.QuoteAPIValidationTest - Query params:	<none>
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.QuoteAPIValidationTest - Form params:	<none>
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.QuoteAPIValidationTest - Path params:	<none>
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.QuoteAPIValidationTest - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.QuoteAPIValidationTest - 				Accept=*/*
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.QuoteAPIValidationTest - 				Content-Type=application/json
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest - Cookies:		<none>
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest - Multiparts:		<none>
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest - Body:
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest - {
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest -     "user": {
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest -         "password": "4c2a713f398226a9e9"
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest -     }
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.QuoteAPIValidationTest - }
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - HTTP/1.1 200 OK
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - date: Sun, 26 Feb 2023 07:40:53 GMT
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - content-type: application/json; charset=utf-8
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - transfer-encoding: chunked
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - x-frame-options: SAMEORIGIN
+[INFO ] 2023-02-26 13:10:53.928 com.nagarro.tests.QuoteAPIValidationTest - x-xss-protection: 1; mode=block
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-content-type-options: nosniff
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-download-options: noopen
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-permitted-cross-domain-policies: none
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - rate-limit-remaining: 29
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - etag: W/"0a20ba05f406f3eac3d7a524d358e55f"
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - set-cookie: _favqs_session=J%2FOC%2FKgXNz3rQWTnNginBqpYZ43N5NM1AkDVwkX%2BokHhkk1E1QSSZ4QcY9Ks28naTruShFDZrr08RtBrn40iRXOTEcit7q7ad0XPfhCv30h10uZRauvEen0eHRjBnXKOxdm42qKivqD9xNo%2FQXzFPTFCWJmRr2WBiduHVxJceVeJSVylN80qBuo%3D--NXWGzePloW14apg7--YBjNg4HAD%2Bpv2hm9lLwM6A%3D%3D; path=/; expires=Tue, 28 Mar 2023 07:40:53 GMT; HttpOnly
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-request-id: 7c653cf0-9d66-4bf6-8f73-a81311751f80
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-runtime: 0.351438
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest - strict-transport-security: max-age=31540000
+[INFO ] 2023-02-26 13:10:53.929 com.nagarro.tests.QuoteAPIValidationTest -
+[INFO ] 2023-02-26 13:10:53.930 com.nagarro.tests.QuoteAPIValidationTest - {
+[INFO ] 2023-02-26 13:10:53.930 com.nagarro.tests.QuoteAPIValidationTest -     "User-Token": "SfYvSAqEvFAVKnO+NLZ+PrId2RTgQBVqa/eNgeVygIjvBEnWNu7SKavFxa1ZhKscxeSBGaWD6NLbxNzxdtyaqg==",
+[INFO ] 2023-02-26 13:10:53.930 com.nagarro.tests.QuoteAPIValidationTest -     "login": "26944",
+[INFO ] 2023-02-26 13:10:53.930 com.nagarro.tests.QuoteAPIValidationTest -     "email": "singh.jasmeet61@gmail.com"
+[INFO ] 2023-02-26 13:10:53.930 com.nagarro.tests.QuoteAPIValidationTest - }
+[INFO ] 2023-03-08 01:32:15.573 com.nagarro.testclient.TestClient - Initializing Base URI from config.properties: https://favqs.com
+[INFO ] 2023-03-08 01:32:15.949 com.nagarro.testclient.TestClient - Initializing Request Specification...
+[INFO ] 2023-03-08 01:32:16.913 com.nagarro.utils.RestClientWrapper - Request method:	POST
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/session
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Path params:	<none>
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:19.904 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:19.905 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:19.905 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:19 GMT
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:19.906 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:19.907 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 29
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - etag: W/"42406aa2c578dbd380fee95a93b09113"
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - set-cookie: _favqs_session=0zSd3ui1vKa21%2BFvqCkXKkuMm3hlvEPfvUUVG1kdcGtONjifhPpRj%2BvddVixMSyYLAHnPiI5RnA0jj6XVd8eZ9sgyEQ2jPw8AR2twp2NCHf0UZ%2Bh0CSORL8hj8SMH4cOFUcvxHh8R%2FbP6Shuj7UmeeiRW7FFmNDw%2Bt1MKavujrPvTASICZ%2BuFuE%3D--HmTumQGJFo9GZvxe--KSorSCsdYZzLf63soTvpbA%3D%3D; path=/; expires=Thu, 06 Apr 2023 20:02:19 GMT; HttpOnly
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - x-request-id: 0ff803e6-08ac-4b95-92a7-90cb7bd1c57c
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - x-runtime: 0.343100
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:19.908 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper -     "User-Token": "2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==",
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper -     "login": "26944",
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper -     "email": "singh.jasmeet61@gmail.com"
+[INFO ] 2023-03-08 01:32:19.909 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:19.923 com.nagarro.tests.QuoteAPIValidationTest - User Token is: 2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:19.929 com.nagarro.utils.RestClientWrapper - Request method:	GET
+[INFO ] 2023-03-08 01:32:19.929 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/quotes
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Path params:	<none>
+[INFO ] 2023-03-08 01:32:19.930 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - 				User-Token=2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:19.931 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:19.932 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:19.933 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:21.927 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:21 GMT
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:21.928 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 29
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - etag: W/"b30f9381376ba17a21b4739f78f9573e"
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - x-request-id: 2be88087-b883-48bd-91a4-a3e84ded7098
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - x-runtime: 0.400772
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper -     "page": 1,
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper -     "last_page": false,
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper -     "quotes": [
+[INFO ] 2023-03-08 01:32:21.929 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "id": 63896,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/hp/63896-test",
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "author": "hp",
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.utils.RestClientWrapper -             "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "body": "test",
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "id": 27174,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.931 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.932 com.nagarro.utils.RestClientWrapper -                 "god"
+[INFO ] 2023-03-08 01:32:21.932 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/aiden-wilson-tozer/27174-an-infinite-g-",
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "author": "Aiden Wilson Tozer",
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "author_permalink": "aiden-wilson-tozer",
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "body": "An infinite God can give all of Himself to each of His children. He does not distribute Himself that each may have a part, but to each one He gives all of Himself as fully as if there were no others.",
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.933 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "id": 62766,
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/anonymous/62766-ug",
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "favorites_count": 2,
+[INFO ] 2023-03-08 01:32:21.934 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "author": "Anonymous",
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "author_permalink": "anonymous",
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "body": "Ug",
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "id": 55153,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.935 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -                 "success"
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/andrew-carnegie/55153-think-of-your-",
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "author": "Andrew Carnegie",
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "author_permalink": "andrew-carnegie",
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "body": "Think of yourself as on the threshold of unparalleled success. A whole, clear, glorious life lies before you. Achieve! Achieve!",
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.936 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             "id": 22246,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -                 "fitness",
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -                 "good"
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.937 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/charles-m-schulz/22246-jogging-is-ve-",
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "author": "Charles M. Schulz",
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "author_permalink": "charles-m-schulz",
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "body": "Jogging is very beneficial. It's good for your legs and your feet. It's also very good for the ground. If makes it feel needed.",
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.938 com.nagarro.utils.RestClientWrapper -             "id": 63154,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/lindgren/63154-kenneth-graham",
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "author": "Lindgren",
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "author_permalink": "lindgren",
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "body": "Kenneth Graham",
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.939 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "id": 5062,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -                 "art"
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/ludwig-van-beethoven/5062-art-who-compre-",
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.utils.RestClientWrapper -             "author": "Ludwig van Beethoven",
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "author_permalink": "ludwig-van-beethoven",
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "body": "Art! Who comprehends her? With whom can one consult concerning this great goddess?",
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "id": 63596,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.941 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/bruce-lee/63596-it-is-not-dai-",
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "author": "Bruce Lee",
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "author_permalink": "bruce-lee",
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "body": "It is not daily increase, but daily decrease. Hack away at the essentials.",
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.942 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "id": 61099,
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -                 "work"
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/woody-allen/61099-i-don-t-want--",
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.943 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "author": "Woody Allen",
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "author_permalink": "woody-allen",
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "body": "I don't want to achieve immortality through my work. I want to achieve it through not dying.",
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "id": 44896,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.944 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -                 "nature"
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/blaise-pascal/44896-man-is-but-a--",
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "author": "Blaise Pascal",
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "author_permalink": "blaise-pascal",
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "body": "Man is but a reed, the most feeble thing in nature, but he is a thinking reed.",
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.945 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "id": 27830,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -                 "good"
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/anne-frank/27830-i-keep-my-ide-",
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "author": "Anne Frank",
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "author_permalink": "anne-frank",
+[INFO ] 2023-03-08 01:32:21.946 com.nagarro.utils.RestClientWrapper -             "body": "I keep my ideals, because in spite of everything I still believe that people are really good at heart.",
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "id": 61749,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -                 "cooking"
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/julia-child/61749-with-enough-b-",
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.947 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "author": "Julia Child",
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "author_permalink": "julia-child",
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "body": "With enough butter, anything is good.",
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "id": 511,
+[INFO ] 2023-03-08 01:32:21.948 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -                 "perception",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -                 "american",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -                 "author"
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/henry-david-thoreau/511-it-s-not-what-y-",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "favorites_count": 3,
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "author": "Henry David Thoreau",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "author_permalink": "henry-david-thoreau",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "body": "It’s not what you look at that matters, it’s what you see.",
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             "id": 63861,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.950 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/hp/63861-test",
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "favorites_count": 2,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "author": "hp",
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "body": "test",
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.951 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "id": 63719,
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/author/63719-your-quote",
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.952 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "author": "Author",
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "author_permalink": "author",
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "body": "Your quote",
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "id": 19049,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.953 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -                 "faith"
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/vincent-van-gogh/19049-painting-is-a-",
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "author": "Vincent Van Gogh",
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "author_permalink": "vincent-van-gogh",
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "body": "Painting is a faith, and it imposes the duty to disregard public opinion.",
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.954 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "id": 18851,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -                 "faith",
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -                 "god"
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/c-s-lewis/18851-i-gave-in-and-",
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "author": "C. S. Lewis",
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "author_permalink": "c-s-lewis",
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "body": "I gave in, and admitted that God was God.",
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.955 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "id": 50021,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -                 "religion",
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -                 "science"
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/albert-einstein/50021-science-witho-",
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "author": "Albert Einstein",
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "author_permalink": "albert-einstein",
+[INFO ] 2023-03-08 01:32:21.956 com.nagarro.utils.RestClientWrapper -             "body": "Science without religion is lame, religion without science is blind.",
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.957 com.nagarro.utils.RestClientWrapper -             "id": 58041,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -                 "trust"
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/corrie-ten-boom/58041-when-a-train--",
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.utils.RestClientWrapper -             "author": "Corrie Ten Boom",
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             "author_permalink": "corrie-ten-boom",
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             "body": "When a train goes through a tunnel and it gets dark, you don't throw away the ticket and jump off. You sit still and trust the engineer.",
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             "id": 40526,
+[INFO ] 2023-03-08 01:32:21.959 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -                 "men",
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -                 "time",
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -                 "war"
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/h-g-wells/40526-a-time-will-c-",
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.960 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "author": "H. G. Wells",
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "author_permalink": "h-g-wells",
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "body": "A time will come when a politician who has willfully made war and promoted international dissension will be as sure of the dock and much surer of the noose than a private homicide. It is not reasonable that those who gamble with men's lives should not stake their own.",
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "id": 16092,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "education",
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -                 "experience"
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.961 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/john-dewey/16092-the-belief-th-",
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "author": "John Dewey",
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "author_permalink": "john-dewey",
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "body": "The belief that all genuine education comes about through experience does not mean that all experiences are genuinely or equally educative.",
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "id": 64191,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.962 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -                 
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/oscar-wilde/64191-i-am-tired-of-",
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "author": "Oscar Wilde",
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "author_permalink": "oscar-wilde",
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "body": "I am tired of myself tonight.\r<br>I should like to be somebody else.",
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.963 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "id": 57094,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -                 "time"
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/franklin-d-roosevelt/57094-if-you-treat--",
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "author": "Franklin D. Roosevelt",
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "author_permalink": "franklin-d-roosevelt",
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "body": "If you treat people right they will treat you right... ninety percent of the time.",
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.964 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "id": 44905,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "nature",
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "truth"
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/marcus-tullius-cicero/44905-nature-has-pl-",
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "favorites_count": 3,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 3,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "author": "Marcus Tullius Cicero",
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "author_permalink": "marcus-tullius-cicero",
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "body": "Nature has planted in our minds an insatiable longing to see the truth.",
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -         },
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -         {
+[INFO ] 2023-03-08 01:32:21.965 com.nagarro.utils.RestClientWrapper -             "id": 28225,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "dialogue": false,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "private": false,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "tags": [
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -                 "government"
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             ],
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "url": "https://favqs.com/quotes/franklin-d-roosevelt/28225-the-united-st-",
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "upvotes_count": 1,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "author": "Franklin D. Roosevelt",
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "author_permalink": "franklin-d-roosevelt",
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "body": "The United States Constitution has proved itself the most marvelously elastic compilation of rules of government ever written.",
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             "user_details": {
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -                 "favorite": false,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -                 "upvote": false,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -                 "downvote": false,
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -                 "hidden": false
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -             }
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -         }
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper -     ]
+[INFO ] 2023-03-08 01:32:21.966 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:22.053 com.nagarro.tests.QuoteAPIValidationTest - Unhidden and UnFavorite Quote Response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:22.053 com.nagarro.tests.QuoteAPIValidationTest - Quote Id of quote: 63896
+[INFO ] 2023-03-08 01:32:22.060 com.nagarro.utils.RestClientWrapper - Request method:	PUT
+[INFO ] 2023-03-08 01:32:22.060 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/quotes/63896/hide
+[INFO ] 2023-03-08 01:32:22.060 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:22.060 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Path params:	quote_id=63896
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - 				User-Token=2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:22.061 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:22 GMT
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 28
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - etag: W/"f1b170b704b8488d5ba3a563dc86dda6"
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-request-id: 418b6693-d5f4-4143-ae68-8f4b36a98a43
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-runtime: 0.053532
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper -     "id": 63896,
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper -     "dialogue": false,
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper -     "private": false,
+[INFO ] 2023-03-08 01:32:23.064 com.nagarro.utils.RestClientWrapper -     "tags": [
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -         
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     ],
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "url": "https://favqs.com/quotes/hp/63896-test",
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "author": "hp",
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "body": "test",
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     "user_details": {
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -         "favorite": false,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -         "upvote": false,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -         "downvote": false,
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -         "hidden": true
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:23.065 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:23.070 com.nagarro.tests.QuoteAPIValidationTest - Expected response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":true},"private":false}
+[INFO ] 2023-03-08 01:32:23.072 com.nagarro.tests.QuoteAPIValidationTest - Actual response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":true},"private":false}
+[INFO ] 2023-03-08 01:32:23.075 com.nagarro.utils.Helper - Reading 'jsonSchemas/quoteJsonSchema.json' file...
+[INFO ] 2023-03-08 01:32:23.075 com.nagarro.utils.Helper - Absolute path for 'jsonSchemas/quoteJsonSchema.json' is: C:\Users\jasmeet2330\IdeaProjects\NAGPRestAssuredExamPrep\target\classes\jsonSchemas\quoteJsonSchema.json
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Request method:	PUT
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/quotes/63896/unhide
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Path params:	quote_id=63896
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - 				User-Token=2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:23.097 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:25.277 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:25.277 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:25 GMT
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 27
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - etag: W/"17f1b4a0a03daa4f6d7b2235fd3e3f13"
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-request-id: 7fd87ab3-a5de-4c8b-b5a5-8416b56674b9
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-runtime: 0.049742
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "id": 63896,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "dialogue": false,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "private": false,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "tags": [
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -         
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     ],
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "url": "https://favqs.com/quotes/hp/63896-test",
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "author": "hp",
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:25.278 com.nagarro.utils.RestClientWrapper -     "body": "test",
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -     "user_details": {
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -         "favorite": false,
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -         "upvote": false,
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -         "downvote": false,
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -         "hidden": false
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:25.279 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:25.286 com.nagarro.tests.QuoteAPIValidationTest - Expected response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:25.287 com.nagarro.tests.QuoteAPIValidationTest - Actual response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:25.289 com.nagarro.utils.Helper - Reading 'jsonSchemas/quoteJsonSchema.json' file...
+[INFO ] 2023-03-08 01:32:25.289 com.nagarro.utils.Helper - Absolute path for 'jsonSchemas/quoteJsonSchema.json' is: C:\Users\jasmeet2330\IdeaProjects\NAGPRestAssuredExamPrep\target\classes\jsonSchemas\quoteJsonSchema.json
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Request method:	PUT
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/quotes/63896/fav
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Path params:	quote_id=63896
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - 				User-Token=2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:25.302 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:26 GMT
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 27
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - etag: W/"095b41f65da15fa5d1d59b1495161e2b"
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-request-id: 14fd0d7a-39bf-408f-ab6f-408eea1540cf
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-runtime: 0.060272
+[INFO ] 2023-03-08 01:32:26.669 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "id": 63896,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "dialogue": false,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "private": false,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "tags": [
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -         
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     ],
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "url": "https://favqs.com/quotes/hp/63896-test",
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "favorites_count": 2,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "author": "hp",
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "body": "test",
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     "user_details": {
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -         "favorite": true,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -         "upvote": false,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -         "downvote": false,
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -         "hidden": false
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:26.670 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:26.673 com.nagarro.tests.QuoteAPIValidationTest - Expected response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":2,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":true,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:26.674 com.nagarro.tests.QuoteAPIValidationTest - Actual response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":2,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":true,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:26.676 com.nagarro.utils.Helper - Reading 'jsonSchemas/quoteJsonSchema.json' file...
+[INFO ] 2023-03-08 01:32:26.676 com.nagarro.utils.Helper - Absolute path for 'jsonSchemas/quoteJsonSchema.json' is: C:\Users\jasmeet2330\IdeaProjects\NAGPRestAssuredExamPrep\target\classes\jsonSchemas\quoteJsonSchema.json
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Request method:	PUT
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/quotes/63896/unfav
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Path params:	quote_id=63896
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - 				User-Token=2+KmIkZlOPBcuJ7gSU0Swo1FMdgK9ymR91q8XiWLexAGKElqjM+rNZSnMRBgzW9SVUdfdCXB9mkdaF9T5pZ7kA==
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:26.688 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -         "email": null,
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -         "password": "4c2a713f398226a9e9",
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:26.689 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:27 GMT
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 26
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - etag: W/"17f1b4a0a03daa4f6d7b2235fd3e3f13"
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-request-id: 859fb477-5e50-49f5-bd85-272bbf1c108c
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-runtime: 0.062138
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:27.725 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "id": 63896,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "dialogue": false,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "private": false,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "tags": [
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -         
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     ],
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "url": "https://favqs.com/quotes/hp/63896-test",
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "favorites_count": 1,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "upvotes_count": 0,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "downvotes_count": 0,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "author": "hp",
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "author_permalink": "hp",
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "body": "test",
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     "user_details": {
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -         "favorite": false,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -         "upvote": false,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -         "downvote": false,
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -         "hidden": false
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:27.726 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:27.730 com.nagarro.tests.QuoteAPIValidationTest - Expected response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:27.731 com.nagarro.tests.QuoteAPIValidationTest - Actual response: {"id":63896,"dialogue":false,"source":null,"tags":[],"url":"https://favqs.com/quotes/hp/63896-test","favorites_count":1,"upvotes_count":0,"downvotes_count":0,"author":"hp","author_permalink":"hp","body":"test","user_details":{"favorite":false,"upvote":false,"downvote":false,"hidden":false},"private":false}
+[INFO ] 2023-03-08 01:32:27.735 com.nagarro.utils.Helper - Reading 'jsonSchemas/quoteJsonSchema.json' file...
+[INFO ] 2023-03-08 01:32:27.735 com.nagarro.utils.Helper - Absolute path for 'jsonSchemas/quoteJsonSchema.json' is: C:\Users\jasmeet2330\IdeaProjects\NAGPRestAssuredExamPrep\target\classes\jsonSchemas\quoteJsonSchema.json

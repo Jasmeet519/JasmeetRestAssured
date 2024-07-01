@@ -1,0 +1,173 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677928273.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "id",
+    "dialogue",
+    "private",
+    "tags",
+    "url",
+    "favorites_count",
+    "upvotes_count",
+    "downvotes_count",
+    "author",
+    "author_permalink",
+    "body",
+    "user_details"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "examples": [
+        64351
+      ],
+      "default": 0
+    },
+    "dialogue": {
+      "$id": "#root/dialogue",
+      "title": "Dialogue",
+      "type": "boolean",
+      "examples": [
+        false
+      ],
+      "default": true
+    },
+    "private": {
+      "$id": "#root/private",
+      "title": "Private",
+      "type": "boolean",
+      "examples": [
+        false
+      ],
+      "default": true
+    },
+    "tags": {
+      "$id": "#root/tags",
+      "title": "Tags",
+      "type": "array",
+      "default": []
+    },
+    "url": {
+      "$id": "#root/url",
+      "title": "Url",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "https://favqs.com/quotes/adina/64351-this-is-my-qu-"
+      ],
+      "pattern": "^.*$"
+    },
+    "favorites_count": {
+      "$id": "#root/favorites_count",
+      "title": "Favorites_count",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "upvotes_count": {
+      "$id": "#root/upvotes_count",
+      "title": "Upvotes_count",
+      "type": "integer",
+      "examples": [
+        0
+      ],
+      "default": 0
+    },
+    "downvotes_count": {
+      "$id": "#root/downvotes_count",
+      "title": "Downvotes_count",
+      "type": "integer",
+      "examples": [
+        0
+      ],
+      "default": 0
+    },
+    "author": {
+      "$id": "#root/author",
+      "title": "Author",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Adina"
+      ],
+      "pattern": "^.*$"
+    },
+    "author_permalink": {
+      "$id": "#root/author_permalink",
+      "title": "Author_permalink",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "adina"
+      ],
+      "pattern": "^.*$"
+    },
+    "body": {
+      "$id": "#root/body",
+      "title": "Body",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "This is my quote for performance testing"
+      ],
+      "pattern": "^.*$"
+    },
+    "user_details": {
+      "$id": "#root/user_details",
+      "title": "User_details",
+      "type": "object",
+      "required": [
+        "favorite",
+        "upvote",
+        "downvote",
+        "hidden"
+      ],
+      "properties": {
+        "favorite": {
+          "$id": "#root/user_details/favorite",
+          "title": "Favorite",
+          "type": "boolean",
+          "examples": [
+            false
+          ],
+          "default": true
+        },
+        "upvote": {
+          "$id": "#root/user_details/upvote",
+          "title": "Upvote",
+          "type": "boolean",
+          "examples": [
+            false
+          ],
+          "default": true
+        },
+        "downvote": {
+          "$id": "#root/user_details/downvote",
+          "title": "Downvote",
+          "type": "boolean",
+          "examples": [
+            false
+          ],
+          "default": true
+        },
+        "hidden": {
+          "$id": "#root/user_details/hidden",
+          "title": "Hidden",
+          "type": "boolean",
+          "examples": [
+            true
+          ],
+          "default": true
+        }
+      }
+    }
+
+  }
+}

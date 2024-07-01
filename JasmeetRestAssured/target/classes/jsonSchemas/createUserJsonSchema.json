@@ -1,0 +1,33 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677526779.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "User-Token",
+    "login"
+  ],
+  "properties": {
+    "User-Token": {
+      "$id": "#root/User-Token",
+      "title": "User-token",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "N2zhdtuCmSLbcaIzCLolE2Kd2bU4pPiO2JH+y1FAePXEI+Vsn8GqXGyg+ipj7auM/lXGdsEpEP7ftsNgRUEqUw=="
+      ],
+      "pattern": "^.*$"
+    },
+    "login": {
+      "$id": "#root/login",
+      "title": "Login",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "jasmeet72"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}

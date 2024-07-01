@@ -1,0 +1,145 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677957029.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "page",
+    "last_page",
+    "activities"
+  ],
+  "properties": {
+    "page": {
+      "$id": "#root/page",
+      "title": "Page",
+      "type": "integer",
+      "examples": [
+        1
+      ],
+      "default": 0
+    },
+    "last_page": {
+      "$id": "#root/last_page",
+      "title": "Last_page",
+      "type": "boolean",
+      "examples": [
+        true
+      ],
+      "default": true
+    },
+    "activities": {
+      "$id": "#root/activities",
+      "title": "Activities",
+      "type": "array",
+      "default": [],
+      "items":{
+        "$id": "#root/activities/items",
+        "title": "Items",
+        "type": "object",
+        "required": [
+          "activity_id",
+          "owner_type",
+          "owner_id",
+          "owner_value",
+          "action",
+          "trackable_id",
+          "trackable_type",
+          "trackable_value",
+          "message"
+        ],
+        "properties": {
+          "activity_id": {
+            "$id": "#root/activities/items/activity_id",
+            "title": "Activity_id",
+            "type": "integer",
+            "examples": [
+              6024
+            ],
+            "default": 0
+          },
+          "owner_type": {
+            "$id": "#root/activities/items/owner_type",
+            "title": "Owner_type",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Tag"
+            ],
+            "pattern": "^.*$"
+          },
+          "owner_id": {
+            "$id": "#root/activities/items/owner_id",
+            "title": "Owner_id",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "funny"
+            ],
+            "pattern": "^.*$"
+          },
+          "owner_value": {
+            "$id": "#root/activities/items/owner_value",
+            "title": "Owner_value",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "funny"
+            ],
+            "pattern": "^.*$"
+          },
+          "action": {
+            "$id": "#root/activities/items/action",
+            "title": "Action",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "has a new"
+            ],
+            "pattern": "^.*$"
+          },
+          "trackable_id": {
+            "$id": "#root/activities/items/trackable_id",
+            "title": "Trackable_id",
+            "type": "integer",
+            "examples": [
+              62410
+            ],
+            "default": 0
+          },
+          "trackable_type": {
+            "$id": "#root/activities/items/trackable_type",
+            "title": "Trackable_type",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Quote"
+            ],
+            "pattern": "^.*$"
+          },
+          "trackable_value": {
+            "$id": "#root/activities/items/trackable_value",
+            "title": "Trackable_value",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "\"That's what I do. I drink and I know things.\" - Tyrion Lannister"
+            ],
+            "pattern": "^.*$"
+          },
+          "message": {
+            "$id": "#root/activities/items/message",
+            "title": "Message",
+            "type": "string",
+            "default": "",
+            "examples": [
+              "Tag funny has a new Quote \"That's what I do. I drink and I know things.\" - Tyrion Lannister"
+            ],
+            "pattern": "^.*$"
+          }
+        }
+      }
+
+    }
+  }
+}

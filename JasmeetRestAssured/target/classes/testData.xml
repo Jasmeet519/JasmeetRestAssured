@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testdata>
+    <APP_localhost>
+
+        <UserAPIValidationTestData>
+
+            <createUserPayloadTestData>
+                <login>jasmeet</login>
+                <email>singh.jasmeet$@gmail.com</email>
+                <password>Jasmeet@123</password>
+            </createUserPayloadTestData>
+
+            <expectedGetUserDetailResponse>
+                <pic_url>https://favqs.s3.amazonaws.com/avatar.png</pic_url>
+                <public_favorites_count>0</public_favorites_count>
+                <following>0</following>
+                <followers>0</followers>
+                <account_details.private_favorites_count>0</account_details.private_favorites_count>
+            </expectedGetUserDetailResponse>
+
+            <updateUserPayloadTestData>
+                <login>jagjeet</login>
+                <email>singh.jagjeet$@gmail.com</email>
+                <password>Jasmeet@123</password>
+                <pic>twitter</pic>
+                <profanity_filter>true</profanity_filter>
+            </updateUserPayloadTestData>
+
+            <updateUserSuccessMsg>User successfully updated.</updateUserSuccessMsg>
+
+        </UserAPIValidationTestData>
+
+
+        <UserActivityAPIValidationTestData>
+            <QueryParametersTestData>
+                <type>tag</type>
+                <filter>funny</filter>
+            </QueryParametersTestData>
+
+            <followActivityResponse>
+                <status>ok</status>
+            </followActivityResponse>
+
+            <unfollowActivityResponse>
+                <status>ok</status>
+            </unfollowActivityResponse>
+
+            <deleteActivityResponse>
+                <status>ok</status>
+            </deleteActivityResponse>
+        </UserActivityAPIValidationTestData>
+
+
+    </APP_localhost>
+</testdata>
+

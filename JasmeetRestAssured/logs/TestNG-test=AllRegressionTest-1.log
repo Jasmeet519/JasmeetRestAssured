@@ -1,0 +1,203 @@
+[INFO ] 2023-02-26 13:10:50.568 com.nagarro.testclient.TestClient - Initializing Base URI from config.properties: https://favqs.com
+[INFO ] 2023-02-26 13:10:51.629 com.nagarro.tests.UserAPIValidationTest - Request method:	POST
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.UserAPIValidationTest - Request URI:	https://favqs.com/api/session
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.UserAPIValidationTest - Proxy:			<none>
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.UserAPIValidationTest - Request params:	<none>
+[INFO ] 2023-02-26 13:10:51.630 com.nagarro.tests.UserAPIValidationTest - Query params:	<none>
+[INFO ] 2023-02-26 13:10:51.667 com.nagarro.tests.UserAPIValidationTest - Form params:	<none>
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.UserAPIValidationTest - Path params:	<none>
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.UserAPIValidationTest - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.UserAPIValidationTest - 				Accept=*/*
+[INFO ] 2023-02-26 13:10:51.668 com.nagarro.tests.UserAPIValidationTest - 				Content-Type=application/json
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest - Cookies:		<none>
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest - Multiparts:		<none>
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest - Body:
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest - {
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest -     "user": {
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest -         "login": "singh.jasmeet61@gmail.com",
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest -         "password": "4c2a713f398226a9e9"
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest -     }
+[INFO ] 2023-02-26 13:10:51.669 com.nagarro.tests.UserAPIValidationTest - }
+[INFO ] 2023-02-26 13:10:54.158 com.nagarro.tests.UserAPIValidationTest - HTTP/1.1 200 OK
+[INFO ] 2023-02-26 13:10:54.158 com.nagarro.tests.UserAPIValidationTest - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-02-26 13:10:54.159 com.nagarro.tests.UserAPIValidationTest - date: Sun, 26 Feb 2023 07:40:53 GMT
+[INFO ] 2023-02-26 13:10:54.159 com.nagarro.tests.UserAPIValidationTest - content-type: application/json; charset=utf-8
+[INFO ] 2023-02-26 13:10:54.159 com.nagarro.tests.UserAPIValidationTest - transfer-encoding: chunked
+[INFO ] 2023-02-26 13:10:54.159 com.nagarro.tests.UserAPIValidationTest - x-frame-options: SAMEORIGIN
+[INFO ] 2023-02-26 13:10:54.159 com.nagarro.tests.UserAPIValidationTest - x-xss-protection: 1; mode=block
+[INFO ] 2023-02-26 13:10:54.160 com.nagarro.tests.UserAPIValidationTest - x-content-type-options: nosniff
+[INFO ] 2023-02-26 13:10:54.160 com.nagarro.tests.UserAPIValidationTest - x-download-options: noopen
+[INFO ] 2023-02-26 13:10:54.160 com.nagarro.tests.UserAPIValidationTest - x-permitted-cross-domain-policies: none
+[INFO ] 2023-02-26 13:10:54.160 com.nagarro.tests.UserAPIValidationTest - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-02-26 13:10:54.160 com.nagarro.tests.UserAPIValidationTest - rate-limit-remaining: 29
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - etag: W/"d8e8eb1f1d562240b82a9e0f92c59a71"
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - set-cookie: _favqs_session=jJoBl0bjxBJ2ZgNzqVApEzzUCB8%2BVW9TCQ6Y2yDwlA1HnXATIRQ%2BEIrIqtj1C65i2CIfbem1StwwuYDGfUHagX9FIKC71aoeVmvrvTMnA6mMbMe4Je1zRXkXqpu6k%2Fsomz2c%2FX3TpAMkuUjIOXGqq9EaHtlS%2BEGQel%2FeHgFcMQguILOK%2B3ERW50%3D--U7wrdFleJ2BlvUFr--K62GpU2ieTk5ktiaHynBGw%3D%3D; path=/; expires=Tue, 28 Mar 2023 07:40:53 GMT; HttpOnly
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - x-request-id: ab847c55-fa69-445e-9276-9ed81b88a397
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - x-runtime: 0.346389
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-02-26 13:10:54.161 com.nagarro.tests.UserAPIValidationTest - strict-transport-security: max-age=31540000
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest - 
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest - {
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest -     "User-Token": "xvd4UW4osVaoF2W9LMAE3Po+SjTF/yl/CWOuEL/9/sfEQxDo21Mu1gtA0OWy4yaltnNekNQXvAYTYCZ///EWCg==",
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest -     "login": "26944",
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest -     "email": "singh.jasmeet61@gmail.com"
+[INFO ] 2023-02-26 13:10:54.162 com.nagarro.tests.UserAPIValidationTest - }
+[INFO ] 2023-03-08 01:32:15.573 com.nagarro.testclient.TestClient - Initializing Base URI from config.properties: https://favqs.com
+[INFO ] 2023-03-08 01:32:15.949 com.nagarro.testclient.TestClient - Initializing Request Specification...
+[INFO ] 2023-03-08 01:32:16.913 com.nagarro.utils.RestClientWrapper - Request method:	POST
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/users
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:16.914 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Path params:	<none>
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:16.915 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -         "login": "jasmeet42430",
+[INFO ] 2023-03-08 01:32:16.916 com.nagarro.utils.RestClientWrapper -         "email": "singh.jasmeet42430@gmail.com",
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "password": "Jasmeet@123",
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:16.917 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:18 GMT
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:18.856 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 29
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - etag: W/"43dc15e4a608a965c5f70df61fd1f0ba"
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:18.857 com.nagarro.utils.RestClientWrapper - set-cookie: _favqs_session=E1fUx0SFxWooYFNb%2BmFz8HPW3fPOsC3Xo%2Fqm0Fs4Seh4lydm086jGy5tq7s81%2BRaP6EhcW%2FSdkHk6siL0XRVdYPAwl6cQsw9qMK8PTxJdGus2ouPeXanyY%2FD1O5jEte4ilWefPdrzWg8tov1XVBxCk29kj%2BLP%2BAJIw3b2uGS4o423IV3%2Fj7eVEw%3D--VCULkMpk7lQ9WdA8--UNemUNud%2FLHak9HPulOfOg%3D%3D; path=/; expires=Thu, 06 Apr 2023 20:02:18 GMT; HttpOnly
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - x-request-id: 7f722de6-e675-43c7-87a3-36b1c382f1e5
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - x-runtime: 0.346821
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper -     "User-Token": "rSzEHzBIAGeUmcjs7paEHoDXubokWqtp2xKOJ/gGtmcuAQBjCzLdUPt7tvBvs+LUV5FKgZ+aWnhN1ZQE9me/qw==",
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper -     "login": "jasmeet42430"
+[INFO ] 2023-03-08 01:32:18.858 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:19.309 com.nagarro.tests.UserAPIValidationTest - User Token is: rSzEHzBIAGeUmcjs7paEHoDXubokWqtp2xKOJ/gGtmcuAQBjCzLdUPt7tvBvs+LUV5FKgZ+aWnhN1ZQE9me/qw==
+[INFO ] 2023-03-08 01:32:19.333 com.nagarro.utils.Helper - Reading 'jsonSchemas/createUserJsonSchema.json' file...
+[INFO ] 2023-03-08 01:32:19.341 com.nagarro.utils.Helper - Absolute path for 'jsonSchemas/createUserJsonSchema.json' is: C:\Users\jasmeet2330\IdeaProjects\NAGPRestAssuredExamPrep\target\classes\jsonSchemas\createUserJsonSchema.json
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Request method:	GET
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/users/jasmeet42430
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Path params:	login=jasmeet42430
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:19.714 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - 				User-Token=rSzEHzBIAGeUmcjs7paEHoDXubokWqtp2xKOJ/gGtmcuAQBjCzLdUPt7tvBvs+LUV5FKgZ+aWnhN1ZQE9me/qw==
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -         "login": "jasmeet42430",
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -         "email": "singh.jasmeet42430@gmail.com",
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -         "password": "Jasmeet@123",
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -         "pic": null,
+[INFO ] 2023-03-08 01:32:19.715 com.nagarro.utils.RestClientWrapper -         "profanity_filter": false
+[INFO ] 2023-03-08 01:32:19.716 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:19.716 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:21 GMT
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:21.899 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 29
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - etag: W/"1fe3cf6f4ba86d605381957b5344e8b5"
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-request-id: 02da81e6-09e0-46ca-abd3-236e1259aa7e
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-runtime: 0.039531
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper -     "login": "jasmeet42430",
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper -     "pic_url": "https://favqs.s3.amazonaws.com/avatar.png",
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper -     "public_favorites_count": 0,
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper -     "following": 0,
+[INFO ] 2023-03-08 01:32:21.900 com.nagarro.utils.RestClientWrapper -     "followers": 0,
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper -     "pro": null,
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper -     "account_details": {
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper -         "email": "singh.jasmeet42430@gmail.com",
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper -         "private_favorites_count": 0
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:21.901 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:21.902 com.nagarro.tests.UserAPIValidationTest - Validating response for 'followers' key should be: 0
+[INFO ] 2023-03-08 01:32:21.911 com.nagarro.tests.UserAPIValidationTest - Validating response for 'following' key should be: 0
+[INFO ] 2023-03-08 01:32:21.920 com.nagarro.tests.UserAPIValidationTest - Validating response for 'public_favorites_count' key should be: 0
+[INFO ] 2023-03-08 01:32:21.930 com.nagarro.tests.UserAPIValidationTest - Validating response for 'account_details.private_favorites_count' key should be: 0
+[INFO ] 2023-03-08 01:32:21.940 com.nagarro.tests.UserAPIValidationTest - Validating response for 'pic_url' key should be: https://favqs.s3.amazonaws.com/avatar.png
+[INFO ] 2023-03-08 01:32:21.949 com.nagarro.tests.UserAPIValidationTest - Validating response for 'login' key should be: jasmeet42430
+[INFO ] 2023-03-08 01:32:21.958 com.nagarro.tests.UserAPIValidationTest - Validating response for 'pro' key should be: null
+[INFO ] 2023-03-08 01:32:21.968 com.nagarro.tests.UserAPIValidationTest - Validating response for 'account_details.email' key should be: singh.jasmeet42430@gmail.com
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Request method:	PUT
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Request URI:	https://favqs.com/api/users/jasmeet42430
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Proxy:			<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Request params:	<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Query params:	<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Form params:	<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Path params:	login=jasmeet42430
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Headers:		Authorization=Token token="e83110a3d5d5c9af8f760333d36577fa"
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - 				Accept=*/*
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - 				User-Token=rSzEHzBIAGeUmcjs7paEHoDXubokWqtp2xKOJ/gGtmcuAQBjCzLdUPt7tvBvs+LUV5FKgZ+aWnhN1ZQE9me/qw==
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - 				Content-Type=application/json
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Cookies:		<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Multiparts:		<none>
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - Body:
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper -     "user": {
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper -         "login": "jagjeet42430",
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper -         "email": "singh.jagjeet42430@gmail.com",
+[INFO ] 2023-03-08 01:32:21.999 com.nagarro.utils.RestClientWrapper -         "password": "Jasmeet@123",
+[INFO ] 2023-03-08 01:32:22.000 com.nagarro.utils.RestClientWrapper -         "pic": "twitter",
+[INFO ] 2023-03-08 01:32:22.000 com.nagarro.utils.RestClientWrapper -         "profanity_filter": true
+[INFO ] 2023-03-08 01:32:22.000 com.nagarro.utils.RestClientWrapper -     }
+[INFO ] 2023-03-08 01:32:22.000 com.nagarro.utils.RestClientWrapper - }
+[INFO ] 2023-03-08 01:32:23.718 com.nagarro.utils.RestClientWrapper - HTTP/1.1 200 OK
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - server: nginx/1.18.0 (Ubuntu)
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - date: Tue, 07 Mar 2023 20:02:23 GMT
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - content-type: application/json; charset=utf-8
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - transfer-encoding: chunked
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-frame-options: SAMEORIGIN
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-xss-protection: 1; mode=block
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-content-type-options: nosniff
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-download-options: noopen
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-permitted-cross-domain-policies: none
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - referrer-policy: strict-origin-when-cross-origin
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - rate-limit-remaining: 28
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - etag: W/"7d653305a91dba8ab750bbca228f63ad"
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - cache-control: max-age=0, private, must-revalidate
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-request-id: 9eb45f5b-c814-4a70-b368-b5cf11d0c258
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-runtime: 0.360798
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - x-backend-server: ip-10-0-1-10
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - strict-transport-security: max-age=31540000
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - 
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - {
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper -     "message": "User successfully updated."
+[INFO ] 2023-03-08 01:32:23.719 com.nagarro.utils.RestClientWrapper - }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" >
+
+    <listeners>
+        <listener class-name="com.nagarro.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="AllRegressionTest">
+        <classes>
+            <class name="com.nagarro.tests.UserAPIValidationTest">
+                <methods>
+                    <include name="createNewUser"/>
+                    <include name="getUserDetails"/>
+                    <include name="updateUserDetails"/>
+                </methods>
+            </class>
+
+            <class name="com.nagarro.tests.QuoteAPIValidationTest">
+                <methods>
+                    <include name="hideAQuote"/>
+                    <include name="unHideAQuote"/>
+                    <include name="addQuoteAsFavourite"/>
+                    <include name="addQuoteAsUnFavourite"/>
+                </methods>
+            </class>
+
+            <class name="com.nagarro.tests.ActivityAPIValidationTest">
+                <methods>
+                    <include name="getUserActivity"/>
+                    <include name="followUserActivity"/>
+                    <include name="unfollowUserActivity"/>
+                    <include name="deleteUserActivity"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
